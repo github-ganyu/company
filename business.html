@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0;}
+        div{background: url("style/img/business.jpg")no-repeat;min-height: 1080px;}
+    </style>
+</head>
+<body>
+<div class="location"></div>
+</body>
+<script src="lib/jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $('div').bind('click',function () {
+          history.back();
+        })
+    })
+    $(document).ready(function () {
+        $('.location').bind('click',function () {
+            window.location.href="index.html";
+        })
+    })
+</script>
+</html>

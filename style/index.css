@@ -41,17 +41,14 @@ aside{font-size:16px;font-weight: bold;}
 .section .container .fr li a{font-size:16px;display: block;text-align: center;}
 .section .border li{border:1px solid #b3a7a7;}
 .section .news{height:36px;background-color: #eeeeee;}
-.section .news .title{color:#fff;font-size:16px;line-height:33px;padding-left:14px;}
+.section .news .title{color:#fff;font-size:16px;line-height:33px;padding-left:14px;position: relative;}
+.section .news .title .page-content-tzgglist{position: absolute;top:0;left:90px;}
 .section .news .title{background: url("../style/img/111.png") no-repeat;height:36px;position: relative;}
-.section .news .title .title_text{overflow: hidden;width:815px;position: absolute;top:0;right:0;font-size: 14px;}
-.section .news .title .title_content{width:8000%;line-height: 36px;}
-.section .news .title .title_content div{float:left;overflow: hidden;zoom: 1;}
-.section .news .title .title_content div ul li{float: left;}
 /*product*/
 .product{padding:20px 0;}
 .product .list li{position: relative;overflow: hidden;width:32.333333%;}
 .product .list li div{position: absolute;width:96%;height:100%;background: #444444;top:0;left:5px;filter: alpha(opacity=45); opacity:0.45;border-radius: 10px;}
-.product .list li .text{width:100px;height:50px;color:#ffffff;position: absolute;top:50%;left:50%;margin-left:-50px;margin-top:-10px;text-align: center;font-weight: 500;}
+.product .list li .text{width:100px;height:50px;color:#ffffff;position: absolute;top:50%;left:50%;margin-left:-50px;margin-top:-10px;text-align: center;font-weight: 500;cursor: pointer;}
 .product aside.left,.product aside.right{float:left;}
 .product aside.right{padding-left:14px;}
 .product aside.left p,.product aside.right p{background: url("../style/img/product.png")no-repeat;height:26px;padding-bottom:2px;}
@@ -95,7 +92,7 @@ aside{font-size:16px;font-weight: bold;}
     .section .navbar-header button span{border:1px solid #444444;}
     .section .container .fr{padding:0;margin:0;}
     .section .news,.section .news .title{height:30px;}
-    .section .news .title{background-size:60px;font-size:14px;line-height: 30px;}
+    .section .news .title{background-size:60px;font-size:14px;line-height: 30px;margin-left:-20px;}
     .section .content{height:auto;}
     .section .content #fr .current{background: none;width:100%;}
     .section .navbar-collapse{margin:0;}
@@ -107,6 +104,8 @@ aside{font-size:16px;font-weight: bold;}
     .section .container .fl{display: none;}
     .section .nav-box .nav_right{display: block;}
     .section .navbar-header .navbar-toggle{background: #ffffff;}
+    .section .news .title .page-content-tzgglist{left:58px;}
+    .section .news .title .page-content-tzgglist .infoList li{font-size:0.12rem;}
     .product{padding:0;}
     .product aside.left p, .product aside.right p{background-size:20px;}
     .product aside.left .offset{margin-left:9.333333%;}
@@ -115,7 +114,7 @@ aside{font-size:16px;font-weight: bold;}
     .product aside.right .offset{margin-left:8%;}
     .product aside.left .hr div{width:38%;}
     .product aside.right .hr div{width:30%;}
-    .product .list li .text{font-size:13px;}
+    .product .list li .text{font-size:15px;}
     .product .list li div{width:87.333333%;border-radius:50%;left:7px;}
     .product .list li{width:31.333333%;padding-left:7px;}
     .product aside.left .hr, .product aside.right .hr{padding-bottom:16px;}
@@ -127,14 +126,18 @@ aside{font-size:16px;font-weight: bold;}
 }
 @media (max-width:320px) {
     .section .container h3{font-size:0.14rem;}
+    .product aside.left .list li img{height:80px;}
     .product aside.right .box div{width:140px;}
+    .product .list li .text{font-size:13px;}
 }
-@media(max-width: 360px){
-    .product aside.right .box div{width:160px;}
+@media (min-width: 360px) and (max-width: 361px) {
+    .product aside.right .box div{width:150px;margin-left:7px;}
+    .product aside.left .list li img{height:87px;}
 }
-@media (min-width: 360px) and (max-width:375px) {
+@media (min-width:362px ) and (max-width:376px) {
     .section{padding-bottom: 24px;}
     .product .list li div{width:89.333333%;}
+    .product aside.right .box div{width:165px;margin-left:2px;}
     .product aside.left .list li img{height:93px;}
 }
 @media(min-width: 380px) and (max-width:415px){
