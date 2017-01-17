@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style/bootstrap.min.css"/>
     <link rel="stylesheet" href="style/index.css"/>
 </head>
 <body>
@@ -44,10 +45,10 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav fr" id="fr">
                         <li class="active"><a href="#" class="current">首页<i class="menu-border"></i></a></li>
-                        <li><a href="#">元融商业</a></li>
-                        <li><a href="#">元融酒业</a></li>
+                        <li><a href="business.html">元融商业</a></li>
+                        <li><a href="beer.html">元融酒业</a></li>
                         <li><a href="#">元融控股</a></li>
-                        <li><a href="#">云计划</a></li>
+                        <li><a href="plan.html">云计划</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -61,19 +62,19 @@
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
+            <div class="item active" align="center">
                 <img src="style/img/banner.png" alt="">
                 <div class="carousel-caption">
                     ...
                 </div>
             </div>
-            <div class="item">
+            <div class="item" align="center">
                 <img src="style/img/banner.png" alt="">
                 <div class="carousel-caption">
                     ...
                 </div>
             </div>
-            <div class="item">
+            <div class="item" align="center">
                 <img src="style/img/banner.png" alt="">
                 <div class="carousel-caption">
                     ...
@@ -91,8 +92,16 @@
     </div>
     <div class="news">
         <div class="container">
-            <div class="title">新闻</div>
-            </div>
+            <div class="title">新闻
+                <div class="page-content-tzgglist" style=" width: 320px; overflow: hidden;">
+                    <div class="txtMarquee-left">
+                        <div class="bd" style=" width: 330px;">
+                            <ul class="infoList">
+                                <li style="width:900px;">以创新破迷局 元融商业的“突围”之道，看元融大数据如何改变商业管理</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
         </div>
 </section>
 <div class="product">
@@ -106,17 +115,17 @@
                     <li>
                         <img src="style/img/jxc.png"/>
                         <div></div>
-                        <span class="text">进销存系统</span>
+                        <span class="text sale">进销存系统</span>
                     </li>
                     <li>
                         <img src="style/img/lsjm.png"/>
                         <div></div>
-                        <span class="text">连锁加盟</span>
+                        <span class="text join">连锁加盟</span>
                     </li>
                     <li>
                         <img src="style/img/njxxb.png"/>
                         <div></div>
-                        <span class="text">北京小香槟</span>
+                        <span class="text beer">北京小香槟</span>
                     </li>
                 </ul>
             </aside>
@@ -174,12 +183,17 @@
             </li>
         </ul>
         <p class="footer_p">&copy;2016-2017  北京元融商业管理有限公司   版权所有</p>
-        <p class="footer_p">手机版&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;电脑版&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;举报版</p>
+        <p class="footer_p">手机版&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;电脑版&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;举报版&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="PrivacyClause.html">隐私条款</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="ServiceClause.html">服务条款</a></p>
     </div>
 </footer>
 </body>
 <script src="lib/jquery.js"></script>
+<script src="lib/jquery.SuperSlide.2.1.1.js"></script>
 <script src="lib/bootstrap.min.js"></script>
 <script src="lib/carousel.js"></script>
 <script src="lib/current.js"></script>
+<script src="lib/location.js"></script>
+<script type="text/javascript">
+    jQuery(".txtMarquee-left").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",interTime:50,trigger:"click"});
+</script>
 </html>
