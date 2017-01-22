@@ -1,0 +1,35 @@
+@charset "utf-8";
+.intro-head{background: url("../style/img/p-banner.png")no-repeat center center;background-size:cover;padding:50px 0;text-align: center;}
+.intro-head .intro-message{padding:0;}
+.intro-head .intro-message h2,.intro-head .intro-message p{margin:0;}
+.intro-head .intro-message p:last-child{background: url("../style/img/down.png")no-repeat bottom;padding:20px;padding-bottom: 60px;}
+.section-a{padding:20px 0;}
+.section-a .date a{display: inline-block;color:#444444;font-size:16px;width:80px;margin-top:5px;cursor: pointer;text-align: center;padding:3px 0;}
+.section-a .date .current{background: #f7cd14;color:#ffffff;}
+.section-a ul li{display: none;}
+.section-a .on{display: block;}
+.section-a .title img,.section-a .title h3{display: inline-block;vertical-align: middle;}
+.section-a .title h3 mark{color:#f7ce14;background: #ffffff;}
+.section-a .title h3 span{color:#999999;font-size: 16px;}
+.section-a .title hr{margin:10px 0;margin-bottom: 20px;}
+.section-a .hr{margin:18px 0;}
+.section-a p{text-indent: 2em;color:#444444;min-height: 0;line-height: 40px;}
+.section-a .text{min-height: 100px;}
+.actGotop{position:fixed;_position:absolute;bottom:64px;right:0;width:60px;height:60px;display:none;}
+.actGotop a,.actGotop a:link{width:60px;height:60px;display:inline-block;background:url("../style/img/fanhuidingbu.png") no-repeat;}
+
+@media (max-width: 640px) {
+    .navbar{min-height: 28px;}
+    .section .container .fl{float: none;}
+    .section .nav-box{margin: 0;}
+    .section .container .fl img{width:20px;height:auto;float: left;}
+    .intro-head .intro-message h2,.intro-head .intro-message p{font-weight: 500;}
+    .intro-head .intro-message p{font-size: 14px;}
+    .section .container h3{font-size: 0.16rem;font-weight: 500;}
+    .intro-head .intro-message p:last-child{padding-bottom: 20px;}
+    .section-a .title h3{font-size: 19px;}
+    .section-a .title h3 span{font-size: 14px;}
+    .section-a .title hr{margin-bottom: 10px;}
+    .section-a p{text-align: left;line-height: 30px;}
+    .section-a .text{padding-bottom: 10px;}
+}
