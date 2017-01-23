@@ -1,0 +1,29 @@
+:root{font-size:10px;}
+.intro-head{background: url('../style/img/bannerc.png')no-repeat center center;min-height: 360px;}
+.section-a img,.section-a .text{display: inline-block;}
+.section-a .text{vertical-align: middle;width:64%;padding-left: 10px;}
+.section-a a{display: inline;}
+.section-a p{min-height: 60px;font-size: 14px;line-height: 30px;}
+.section-a h4{font-size: 20px;text-align: left;padding:4px 0;}
+.section-a .row div{padding-top:20px;padding-bottom: 20px;}
+.section-a .row div:nth-child(4) img{margin-left:-12px;}
+.section-a .row div:nth-child(6) img{margin-left:12px;}
+
+@media (max-width: 640px){
+    .section-a{padding-top:10px;padding-bottom: 0;}
+    .intro-head{min-height: 160px;}
+    .section-a p{font-size: 1.1rem;text-align: left;line-height: 20px;}
+    .section-a .text{padding-left:5px;}
+    .section-a .row div:nth-child(4) img,.section-a .row div:nth-child(6) img{margin:0;}
+    .section .container h3{font-size: 1.7rem;}
+    .section-a .row div.border,.section-a .row div{padding-top:0;padding-bottom: 0;border-bottom: 1px solid #eeeeee;}
+    .section-a .row div.border .img1{width: 13%;}
+    .section-a .row div{border:none;}
+    .section-a .row div.text{padding-top:0;padding-bottom:0;}
+    .section-a img{width:15%;}
+    .section-a h4{font-size:1.6rem;padding:0;}
+}
+
+@media (max-width: 320px) {
+    .section .container h3{font-size: 1.4rem;}
+}

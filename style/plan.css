@@ -1,0 +1,12 @@
+.intro-head .intro-message h2,.intro-head .intro-message h3,.intro-head .intro-message p{margin-top:10%;text-align: justify;}
+.intro-head .intro-message h3{margin-top:5%;color:#ffffff;margin-bottom: 10px;}
+.intro-head .intro-message p{margin:0;font-size:16px;line-height: 23px;}
+.intro-head .intro-message a{margin:0;display: inline-block;background:none;border:1px solid #f7cd14;color: #f7cd14;border-radius: 1px;padding:5px 30px;}
+.intro-head .intro-message .more-btn{position: absolute;left:0;margin-top:20px;}
+.intro-head .intro-message a:last-child{margin-left: 10px;}
+.intro-head .intro-message a:hover{background:#f0ad4e;color:#ffffff;}
+.section-a h4{font-size:18px;}
+.section-a p{color: #444444;text-align: center;min-height: 60px;}
+nav.navbar{margin-bottom: 0;}
+nav.navbar-default{background: #f7cd14;border-radius: 1px;border:none;}
+nav.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{color:#ffffff;font-size:18px;background: none;}
