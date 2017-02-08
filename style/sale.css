@@ -1,5 +1,5 @@
 :root{font-size:10px;}
-.intro-head{background: url('../style/img/bannerc.png')no-repeat center center;min-height: 360px;}
+.intro-head{background: url('../style/img/bannerc.png')no-repeat center center;min-height: 360px;background-size: cover;}
 .section-a img,.section-a .text{display: inline-block;}
 .section-a .text{vertical-align: middle;width:64%;padding-left: 10px;}
 .section-a a{display: inline;}
