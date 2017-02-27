@@ -1,0 +1,61 @@
+@charset "utf-8";
+.section-a .win .box span{display: inline-block;width: 86px;height:86px;border-radius: 50%;background: #ffffff;position: absolute;text-align: center;line-height:86px;font-size: 24px;}
+.section-a .win .box span p{position: absolute;width:170px;text-indent: 0;font-size:16px;padding:0;top:-74%;left:-20px;}
+.section-a .win .box span .down{top:-7px;}
+.section-a .win .box span div{overflow:hidden;height: 50px;width:190px;position:absolute;top:-59px;left:-25px;}
+.section-a .win .box span div.top{top:100px;}
+.section-a .win .box span div img{position: absolute;top:33px;right:0;cursor: pointer;}
+.section-a .win .box span div p{position: absolute;top:-7px;left:5px;}
+.section-a .win .box span div .down_img{position: absolute;top:32px;}
+.section-a .win .box span:nth-of-type(1){left:22%;top:50%;margin-top:-70px;}
+.section-a .win .box span:nth-of-type(2){left:28%;top:50%;margin-top:36px;}
+.section-a .win .box span:nth-of-type(3){left:35%;top:50%;margin-top:-72px;}
+.section-a .win .box span:nth-of-type(4){left:41%;top:50%;margin-top:38px;}
+.section-a .win .box span:nth-of-type(5){left:48%;top:50%;margin-top:-69px;}
+.section-a .win .box span:nth-of-type(6){left:54%;top:50%;margin-top:39px;}
+.section-a .win .box span:nth-of-type(7){left:61%;top:50%;margin-top:-74px;}
+.section-a .win .box span:nth-of-type(8){left:67%;top:50%;margin-top:34px;}
+.section-a .win .box span:nth-of-type(9){left:74%;top:50%;margin-top:-72px;}
+.section-a .win .box h3{position: absolute;top:40px;color: #ffffff;left:50%;margin-left:-50px;}
+.section-a .win .box .title{background: none;}
+.section-a .win .box span:nth-of-type(5),
+.section-a .win .box span:nth-of-type(6),
+.section-a .win .box span:nth-of-type(8),
+.section-a .win .box span:nth-of-type(9){line-height: 55px;}
+.section-a .win .box span:nth-of-type(5) .title,
+.section-a .win .box span:nth-of-type(6) .title,
+.section-a .win .box span:nth-of-type(8) .title,
+.section-a .win .box span:nth-of-type(9) .title{margin-top:-26px;margin-left:-17px;}
+@media only screen and (min-width: 1220px) and (max-width: 1440px) {
+	.section-a .win .box span:nth-of-type(1){left:10%;margin-top:-70px;}
+	.section-a .win .box span:nth-of-type(2){left:19%;margin-top:37px;}
+	.section-a .win .box span:nth-of-type(3){left:28%;margin-top:-74px;}
+	.section-a .win .box span:nth-of-type(4){left:38%;margin-top:37px;}
+	.section-a .win .box span:nth-of-type(5){left:47%;margin-top:-69px;}
+	.section-a .win .box span:nth-of-type(6){left:56%;margin-top:38px;}
+	.section-a .win .box span:nth-of-type(7){left:65%;margin-top:-75px;}
+	.section-a .win .box span:nth-of-type(8){left:74%;margin-top:35px;}
+	.section-a .win .box span:nth-of-type(9){left:83%;margin-top:-74px;}
+	.section-a .win .box span div img{top:33px;right:0;}
+	.section-a .win .box span div{left:-44px;}
+	.section-a .win .box span .down{top:-4px;}
+	.section-a .win .box span div .down_img{top:35px;}
+	.section-a .win .box span:nth-of-type(5) .title, .section-a .win .box span:nth-of-type(6) .title, .section-a .win .box span:nth-of-type(8) .title, .section-a .win .box span:nth-of-type(9) .title{margin-left:-8px;}
+}
+
+img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+		a:hover{ color:#1974A1;  }
+
+
+		 /*本例子css 
+		.txtScroll-top{ width:170px; height: 50px; overflow:hidden; position:absolute;z-index: 999;  border:1px solid #FFFFFF;color:#FFFFFF;   }
+		.txtScroll-top .hd{ overflow:hidden;  height:50px; background:black;}
+		.txtScroll-top .hd .prev,.txtScroll-top .hd .next{ display:block;  width:67px; height:25px; float:right; margin-right:5px; margin-top:10px;
+			 cursor:pointer;}
+		.txtScroll-top .hd .next{ background:url(../style/img/beer/display.png) no-repeat center bottom;  }
+		.txtScroll-top .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px; }
+		.txtScroll-top .hd ul li{ float:left;  width:9px; height:9px; overflow:hidden; margin-right:5px; text-indent:-999px; cursor:pointer; background:url("images/icoCircle.gif") 0 -9px no-repeat; }
+		.txtScroll-top .hd ul li.on{ background-position:0 0; }
+		.txtScroll-top .infoList li{ height:24px; line-height:24px;   }
+		.txtScroll-top .infoList li .date{ float:right; color:#999;  }*/

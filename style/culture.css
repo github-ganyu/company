@@ -1,0 +1,12 @@
+@charset "utf-8";
+.section-a .win .box{min-height: 640px;}
+.section-a .win .box .bg1,.section-a .win .bg2{background: url("../style/img/beer/wenhua1.png")no-repeat center center;min-height: 652px;background-size:cover;}
+.section-a .win .box .bg2{background: url("../style/img/beer/wenhua2.png")no-repeat center center;}
+.section-a .win .box .bg1 .contant{position: absolute;top:50%;width:500px;left:25%;margin-top:-50px;}
+.section-a .win .box .bg2 .contant{position:absolute;left:50%;top:40%;width:400px;margin-top:-150px;margin-left:60px;}
+.section-a .win .box .bg2 .contant h4{position:absolute;top:-17%;left:50%;margin-left:-10px;font-size: 14px;}
+.section-a .win .box .bg2 .contant p{text-align: center;color:#000000;padding-top:0;}
+@media only screen and (min-width: 1220px) and (max-width: 1440px) {
+	.section-a .win .box .bg2 .contant{left:56%!important;}
+	.section-a .rightB img{right:0;}
+}
