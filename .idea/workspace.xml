@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e65402a-eeb9-4738-90e4-e4cd8593473e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/index.css" afterPath="$PROJECT_DIR$/style/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/img/beer/banner1.png" afterPath="$PROJECT_DIR$/style/img/beer/banner1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/img/beer/chanpin1.png" afterPath="$PROJECT_DIR$/style/img/beer/chanpin1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/img/beer/chanpin2.png" afterPath="$PROJECT_DIR$/style/img/beer/chanpin2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/img/beer/gongyi.png" afterPath="$PROJECT_DIR$/style/img/beer/gongyi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/img/beer/jianjie1.png" afterPath="$PROJECT_DIR$/style/img/beer/jianjie1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/img/beer/lianxiwomen.png" afterPath="$PROJECT_DIR$/style/img/beer/lianxiwomen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/img/beer/rongyao.png" afterPath="$PROJECT_DIR$/style/img/beer/rongyao.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/img/beer/wenhua1.png" afterPath="$PROJECT_DIR$/style/img/beer/wenhua1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/img/beer/wenhua2.png" afterPath="$PROJECT_DIR$/style/img/beer/wenhua2.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +28,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="134">
+              <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -39,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -273,8 +280,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\COM\style" />
       <recent name="D:\COM" />
+      <recent name="D:\COM\style" />
       <recent name="D:\company" />
       <recent name="D:\company\style" />
     </key>
@@ -401,15 +408,15 @@
       <workItem from="1487914034305" duration="5150000" />
       <workItem from="1487919495780" duration="4518000" />
       <workItem from="1487926718446" duration="1775000" />
-      <workItem from="1488156338820" duration="415000" />
+      <workItem from="1488156338820" duration="1034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168366000" />
+    <option name="totallyTimeSpent" value="168985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="9" width="1932" height="1056" extended-state="1" />
+    <frame x="0" y="9" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.118268214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -699,10 +706,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        <state relative-caret-position="134">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -712,14 +727,6 @@
             <element signature="n#style#0;n#a#0;n#span#0;n#li#2;n#ul#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
