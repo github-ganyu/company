@@ -66,7 +66,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active" align="center">
-                <img src="style/img/banner.png" alt="">
+                <img src="style/img/banner.png" class="lazy" data-original="style/img/banner.png"  alt="">
                 <div class="carousel-caption">
                     ...
                 </div>
@@ -196,6 +196,7 @@
 <script src="lib/carousel.js"></script>
 <script src="lib/current.js"></script>
 <script src="lib/location.js"></script>
+<script src="lib/jquery.lazyload.js"></script>
 <script type="text/javascript">
     jQuery(".txtMarquee-left").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",interTime:50,trigger:"click"});
 </script>
